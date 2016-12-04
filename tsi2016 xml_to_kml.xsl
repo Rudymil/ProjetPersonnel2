@@ -11,7 +11,7 @@
 	<kml xmlns="http://www.opengis.net/kml/2.2"> <!-- prologue kml -->
 	
 		<Document> <!-- liste des placemark -->
-			<xsl:for-each select="tsi2016/Personne"> <!-- pour chaque personne -->
+			<xsl:for-each select="Personne"> <!-- pour chaque personne -->
 			<Placemark> <!-- on place un marqueur -->
 				<name> <!-- TITRE -->
 					<xsl:value-of select="@prenom "/>
@@ -37,7 +37,7 @@
 				</Point>
 			</Placemark>
 			</xsl:for-each>
-			<xsl:for-each select="tsi2016/Employeur"> <!-- pour chaque employeur -->
+			<xsl:for-each select="Employeur"> <!-- pour chaque employeur -->
 			<Placemark> <!-- on place un marqueur -->
 				<name> <!-- TITRE -->
 					<xsl:value-of select="@nom"/>
