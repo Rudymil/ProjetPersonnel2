@@ -3,13 +3,13 @@
 <xsl:stylesheet version="1.0"
 				xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 				xmlns:tsi2016="http://www.ensg.eu/tsi2016">
-  
+
 	<xsl:output method="kml" version="1.0" encoding="UTF-8" indent="yes"/>
-	
+
 	<xsl:template match="/"> <!-- des qu on rencontre la racine -->
-	
+
 	<kml xmlns="http://www.opengis.net/kml/2.2"> <!-- prologue kml -->
-	
+
 		<Document> <!-- liste des placemark -->
 			<xsl:for-each select="Personne"> <!-- pour chaque personne -->
 			<Placemark> <!-- on place un marqueur -->
@@ -45,9 +45,11 @@
 				<description> <!-- COORDONNEES -->
 					<xsl:for-each select="Direction"> <!-- pour chaque direction -->
 						<xsl:value-of select="@nom"/>
+						<xsl:text>&#xA;<!-- retour chariot --></xsl:text>
 						<xsl:for-each select="Service"> <!-- pour chaque service -->
-							<xsl:value-of select="@nom"/>
-							<xsl:value-of select="@agents"/>
+							<xsl:value-of select="@nom"/> contient 
+							<xsl:value-of select=" @agents"/> agents.
+							<xsl:text>&#xA;<!-- retour chariot --></xsl:text>
 						</xsl:for-each>
 					</xsl:for-each>
 				</description>
@@ -64,11 +66,11 @@
 					</coordinates>
 				</Point>
 			</Placemark>
-			</xsl:for-each>		
+			</xsl:for-each>
 		</Document>
-		
+
 	</kml>
-	
+
 	</xsl:template>
-  
+
 </xsl:stylesheet>
