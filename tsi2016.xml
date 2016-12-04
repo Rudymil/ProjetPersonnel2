@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
 <tsi2016 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="tsi2016Final.xsd"
+	xsi:noNamespaceSchemaLocation="tsi2016.xsd"
 	xmlns="http://www.ensg.eu/tsi2016"
     xmlns:tsi2016="http://www.ensg.eu/tsi2016">
 
@@ -94,7 +95,13 @@
 	   	 </Direction>
 	</Employeur>
 
-	<Lieu nom="lENSG">
-		 <Adresse no="6" rue="Avenue Blaise Pascal" codePostal="77420" ville="Marne-la-vallée"/>
+	<Lieu nom="ENSG">
+		 <Adresse no="6" rue="Avenue Blaise Pascal" codePostal="77420" ville="CHAMPS-SUR-MARNE"/>
+		 <Coordonnees Latitude="48.841011" Longitude="2.587254"/>
+	</Lieu>
+	
+	<Lieu nom="UPEM">
+		 <Adresse no="5" rue="Boulevard Descartes" codePostal="77420" ville="CHAMPS-SUR-MARNE"/>
+		 <Coordonnees Latitude="48.839554" Longitude="2.586676"/>
 	</Lieu>
 </tsi2016>
