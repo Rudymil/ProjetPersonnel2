@@ -5,59 +5,59 @@
 	xmlns="http://www.ensg.eu/tsi2016"
     xmlns:tsi2016="http://www.ensg.eu/tsi2016">
 
-	<Personne nom="hamya" prenom="hind" employeur="ENSG" service="ENSG.ERD.IST" lieu="lENSG">
+	<Personne nom="HAMYA" prenom="Hind" employeur="ENSG" service="ENSG.ERD.IST" lieu="ENSG">
 	     <Fonction role="etudiant"/>
 	</Personne>
 
-	<Personne nom="derbouz" prenom="hanane" employeur="UPEM" service="UPEM.ERD.IST" lieu="lENSG">
+	<Personne nom="DERBOUZ" prenom="Hanane" employeur="UPEM" service="UPEM.ERD.IST" lieu="ENSG">
 	   	 <Fonction role="etudiant"/>
 	</Personne>
 
-	<Personne nom="BALTZ" prenom="Hugo" employeur="ENSG" service="ENSG.DRE.DE" lieu="lENSG">
+	<Personne nom="BALTZ" prenom="Hugo" employeur="ENSG" service="ENSG.DRE.DE" lieu="ENSG">
 		<Fonction role="eleveIngenieur"/>
 	</Personne>
 
-	<Personne nom="BRINON" prenom="Victor" employeur="ENSG" service="ENSG.DRE.DE" lieu="lENSG">
+	<Personne nom="BRINON" prenom="Victor" employeur="ENSG" service="ENSG.DRE.DE" lieu="ENSG">
 		<Fonction role="eleveFonctionnaire"/>
 	</Personne>
 
-	<Personne nom="MILLET" prenom="Rudolf" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="lENSG">
+	<Personne nom="MILLET" prenom="Rudolf" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="ENSG">
 		<Fonction role="eleveIngenieur"/>
 	</Personne>
 
-	<Personne nom="Er-razki" prenom="Sibawaih" employeur="ENSG" service="ENSG.DRE.Ministere_de_l_ecologie" lieu="lENSG">
+	<Personne nom="ER-RAZKI" prenom="Sibawaih" employeur="ENSG" service="ENSG.DRE.Ministere_de_l_ecologie" lieu="ENSG">
 		<Fonction role="eleveIngenieur"/>
 	</Personne>
 
-	<Personne nom="SLIM" prenom="Anas" employeur="UPEM" service="UPEM.DRE.Ministere_de_l_enseignement_sup" lieu="lENSG">
+	<Personne nom="SLIM" prenom="Anas" employeur="UPEM" service="UPEM.DRE.Ministere_de_l_enseignement_sup" lieu="ENSG">
 	    <Fonction role="etudiant"/>
 	</Personne>
   
-	<Personne nom="Marcuzzi" prenom="Julie" employeur="ENSG" service="ENSG.DRE.Direction_des_etudes" lieu="lENSG">
+	<Personne nom="MARCUZZI" prenom="Julie" employeur="ENSG" service="ENSG.DRE.Direction_des_etudes" lieu="ENSG">
 		<Fonction role="eleveFonctionnaire"/>   	
 	</Personne>
 
-	<Personne nom="Darroman" prenom="Elsa" employeur="ENSG" service="ENSG.DRE.Direction_des_etudes" lieu="lENSG">
+	<Personne nom="DARROMAN" prenom="Elsa" employeur="ENSG" service="ENSG.DRE.Direction_des_etudes" lieu="ENSG">
 		<Fonction role="eleveIngenieur"/>
 	</Personne>
 
-	<Personne nom="Benkimoun" prenom="Samuel" employeur="UPEM" service="UPEM.ERD.IST" lieu="lENSG">
+	<Personne nom="BENKIMOUN" prenom="Samuel" employeur="UPEM" service="UPEM.ERD.IST" lieu="lENSG">
 		<Fonction role="etudiant"/>
 	</Personne>
 
-	<Personne nom="Samassa" prenom="Mamady" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="lENSG">
+	<Personne nom="SAMASSA" prenom="Mamady" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="ENSG">
 		<Fonction role="eleveIngenieur"/>
 	</Personne>
 
-	<Personne nom="LESSAM" prenom="Coil" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="lENSG">
+	<Personne nom="MESSAL" prenom="Loïc" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="ENSG">
 		<Fonction role="etudiant"/> 
 	</Personne>
 
-	<Personne nom="Parisel" prenom="Camille" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="lENSG">
+	<Personne nom="PARISEL" prenom="Camille" employeur="ENSG" service="ENSG.Direction_des_Etudes.TSI" lieu="ENSG">
 		<Fonction role="eleveFonctionnaire"/> 
 	</Personne>
 
-	<Personne nom="MAZIERE" prenom="Romain" employeur="UPEM" service="UPEM.ERD.IST" lieu="lENSG">
+	<Personne nom="MAZIERE" prenom="Romain" employeur="UPEM" service="UPEM.ERD.IST" lieu="ENSG">
 		<Fonction role="enFormationContinue"/> 
 	</Personne>	
 
