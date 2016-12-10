@@ -41,7 +41,7 @@
 		<Fonction role="eleveIngenieur"/>
 	</Personne>
 
-	<Personne nom="BENKIMOUN" prenom="Samuel" employeur="UPEM" service="UPEM.ERD.IST" lieu="lENSG">
+	<Personne nom="BENKIMOUN" prenom="Samuel" employeur="UPEM" service="UPEM.ERD.IST" lieu="ENSG">
 		<Fonction role="etudiant"/>
 	</Personne>
 

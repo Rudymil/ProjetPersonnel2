@@ -1,4 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:tsi2016="http://www.ensg.eu/tsi2016">
-  <Document/>
+    <Style id="Personne">
+        <IconStyle>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pal2/icon14.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <Style id="Lieu">
+        <IconStyle>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pal3/icon21.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <Document>
+        <Placemark>
+            <name>Hind HAMYA</name>
+            <description>etudiant à l'ENSG au ENSG.ERD.IST par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hanane DERBOUZ</name>
+            <description>etudiant à l'ENSG au UPEM.ERD.IST par l'UPEM</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.586676,48.839554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hugo BALTZ</name>
+            <description>eleveIngenieur à l'ENSG au ENSG.DRE.DE par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Victor BRINON</name>
+            <description>eleveFonctionnaire à l'ENSG au ENSG.DRE.DE par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rudolf MILLET</name>
+            <description>eleveIngenieur à l'ENSG au ENSG.Direction_des_Etudes.TSI par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sibawaih ER-RAZKI</name>
+            <description>eleveIngenieur à l'ENSG au ENSG.DRE.Ministere_de_l_ecologie par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Anas SLIM</name>
+            <description>etudiant à l'ENSG au UPEM.DRE.Ministere_de_l_enseignement_sup par l'UPEM</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.586676,48.839554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Julie MARCUZZI</name>
+            <description>eleveFonctionnaire à l'ENSG au ENSG.DRE.Direction_des_etudes par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Elsa DARROMAN</name>
+            <description>eleveIngenieur à l'ENSG au ENSG.DRE.Direction_des_etudes par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Samuel BENKIMOUN</name>
+            <description>etudiant à l'ENSG au UPEM.ERD.IST par l'UPEM</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.586676,48.839554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mamady SAMASSA</name>
+            <description>eleveIngenieur à l'ENSG au ENSG.Direction_des_Etudes.TSI par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Loïc MESSAL</name>
+            <description>etudiant à l'ENSG au ENSG.Direction_des_Etudes.TSI par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camille PARISEL</name>
+            <description>eleveFonctionnaire à l'ENSG au ENSG.Direction_des_Etudes.TSI par l'ENSG</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Romain MAZIERE</name>
+            <description>enFormationContinue à l'ENSG au UPEM.ERD.IST par l'UPEM</description>
+            <styleUrl>#Personne</styleUrl>
+            <Point>
+                <coordinates>2.586676,48.839554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ENSG</name>
+            <description>Adresse :
+6 Avenue Blaise Pascal
+77420 CHAMPS-SUR-MARNE
+-Direction :
+ENSG.DRE
+--Service :
+ENSG.DRE.Direction_des_etudes contient 200 agents. 
+--Service :
+ENSG.DRE.Ministere_de_l_ecologie contient 120 agents. 
+--Service :
+ENSG.DRE.DE contient 120 agents. 
+-Direction :
+ENSG.Direction_des_Etudes
+--Service :
+ENSG.Direction_des_Etudes.TSI contient 120 agents. 
+-Direction :
+ENSG.Ressource_humaine
+--Service :
+ENSG.Ressource_humaine.DE contient 120 agents. 
+-Direction :
+ENSG.ERD
+--Service :
+ENSG.ERD.IST contient 14 agents. 
+</description>
+            <styleUrl>#Lieu</styleUrl>
+            <Point>
+                <coordinates>2.587254,48.841011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>UPEM</name>
+            <description>Adresse :
+5 Boulevard Descartes
+77420 CHAMPS-SUR-MARNE
+-Direction :
+UPEM.DRE
+--Service :
+UPEM.DRE.Direction_des_etudes contient 200 agents. 
+--Service :
+UPEM.DRE.Ministere_de_l_enseignement_sup contient 1220 agents. 
+--Service :
+UPEM.DRE.DE contient 120 agents. 
+-Direction :
+UPEM.Direction_des_Etudes
+--Service :
+UPEM.Direction_des_Etudes.TSI contient 120 agents. 
+-Direction :
+UPEM.Ressource_humaine
+--Service :
+UPEM.Ressource_humaine.DE contient 120 agents. 
+-Direction :
+UPEM.ERD
+--Service :
+UPEM.ERD.IST contient 14 agents. 
+</description>
+            <styleUrl>#Lieu</styleUrl>
+            <Point>
+                <coordinates>2.586676,48.839554</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
 </kml>
