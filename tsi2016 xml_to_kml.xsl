@@ -11,7 +11,7 @@
 		<kml xmlns="http://www.opengis.net/kml/2.2"> <!-- prologue kml -->
 
 			<Document> <!-- liste des placemark -->
-				<xsl:for-each select="tsi2016:tsi2016/tsi2016:Personne"> <!-- pour chaque personne-->
+				<xsl:for-each select="tsi2016/Personne"> <!-- pour chaque personne-->
 					<Placemark> <!-- on place un marqueur -->
 						<name> <!-- TITRE -->
 							<xsl:value-of select="@prenom "/>
@@ -26,18 +26,18 @@
 						<Point>
 							<coordinates> <!-- COORDONNEES -->
 								<xsl:if test="@lieu= 'ENSG'"> <!-- si c est l ENSG -->
-									<xsl:value-of select="Lieu[0]/Coordonnees/@Longitude"/>,
-									<xsl:value-of select="Lieu[0]/Coordonnees/@Latitude"/>
-								</xsl:if>
-								<xsl:if test="@lieu= 'UPEM'"> <!-- si c est l UPEM -->
 									<xsl:value-of select="Lieu[1]/Coordonnees/@Longitude"/>,
 									<xsl:value-of select="Lieu[1]/Coordonnees/@Latitude"/>
+								</xsl:if>
+								<xsl:if test="@lieu= 'UPEM'"> <!-- si c est l UPEM -->
+									<xsl:value-of select="Lieu[2]/Coordonnees/@Longitude"/>,
+									<xsl:value-of select="Lieu[2]/Coordonnees/@Latitude"/>
 								</xsl:if>
 							</coordinates>
 						</Point>
 					</Placemark>
 				</xsl:for-each>
-				<xsl:for-each select="tsi2016:tsi2016/tsi2016:Employeur"> <!-- pour chaque employeur -->
+				<xsl:for-each select="tsi2016/Employeur"> <!-- pour chaque employeur -->
 					<Placemark> <!-- on place un marqueur -->
 						<name> <!-- TITRE -->
 							<xsl:value-of select="@nom"/>
@@ -56,12 +56,12 @@
 						<Point>
 							<coordinates> <!-- COORDONNEES -->
 								<xsl:if test="@nom= 'ENSG'"> <!-- si c est l ENSG -->
-									<xsl:value-of select="Lieu[0]/Coordonnees/@Longitude"/>,
-									<xsl:value-of select="Lieu[0]/Coordonnees/@Latitude"/>
-								</xsl:if>
-								<xsl:if test="@nom= 'UPEM'"> <!-- si c est l UPEM -->
 									<xsl:value-of select="Lieu[1]/Coordonnees/@Longitude"/>,
 									<xsl:value-of select="Lieu[1]/Coordonnees/@Latitude"/>
+								</xsl:if>
+								<xsl:if test="@nom= 'UPEM'"> <!-- si c est l UPEM -->
+									<xsl:value-of select="Lieu[2]/Coordonnees/@Longitude"/>,
+									<xsl:value-of select="Lieu[2]/Coordonnees/@Latitude"/>
 								</xsl:if>
 							</coordinates>
 						</Point>
