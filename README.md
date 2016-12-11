@@ -24,9 +24,16 @@ Un bonus +1 sera attribué au premier livrable (dans la date de réception des c
 
 Bon courage
 
+Démonstration
+-----------------
+
+![demo.mp4](demo.mp4)
+
 Bibliographie
 -----------------
 
 [Keyhole Markup Language](http://www.siteduzero.com)
 
-[XSLT (eXtensible Stylesheet Language Transformations) online transformations](http://www.utilities-online.info/xsltransformation/#.WExx6-QzXDd)
+[XSLT (eXtensible Stylesheet Language Transformations) online transformations](http://www.utilities-online.info/xsltransformation/)
+
+[W3C XML Schema (XSD) Validation online](http://www.utilities-online.info/xsdvalidation/#.WE3HfoWcGwk)
