@@ -36,4 +36,4 @@ Bibliographie
 
 [XSLT (eXtensible Stylesheet Language Transformations) online transformations](http://www.utilities-online.info/xsltransformation/)
 
-[W3C XML Schema (XSD) Validation online](http://www.utilities-online.info/xsdvalidation/#.WE3HfoWcGwk)
+[W3C XML Schema (XSD) Validation online](http://www.utilities-online.info/xsdvalidation/)
