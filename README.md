@@ -1,4 +1,4 @@
-[Projet personnel #2] Génération de KML à partir d'XML géo-localisé 
+[Projet personnel #2] Génération de KML à partir d'XML géo-localisé
 =================
 
 ENONCE
@@ -24,12 +24,12 @@ Un bonus +1 sera attribué au premier livrable (dans la date de réception des c
 
 Bon courage
 
-Démonstration
+Illustration
 -----------------
 
-![demo.mp4](demo.mp4)
+![rendu.jpg](img/rendu.jpg)
 
-[ProjetPersonnel2](https://www.youtube.com/watch?v=-50mfa95KDU)
+Vidéo : [ProjetPersonnel2](https://www.youtube.com/watch?v=-50mfa95KDU)
 
 Bibliographie
 -----------------
